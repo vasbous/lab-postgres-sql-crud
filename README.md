@@ -8,16 +8,22 @@ We just learned about databases and SQL. Now let's put that knowledge into pract
 
 In this lab, you will practice SQL by working with a PostgreSQL database. You will use the `psql` client to execute SQL queries to create, read, update, and delete records in a database.
 
+<br>
+
 ## Deliverables
 
 Since we will be querying our database from `psql`, you will need to copy/paste the query you entered in `psql`.
 
 In the `queries.md` file, you will find the instructions about the query you need to perform in each iteration and a space to fill the answer.
 
+<br>
+
 ## Requirements
 
 - Fork this repo
 - Clone this repo
+
+<br>
 
 ## Submission
 
@@ -30,6 +36,8 @@ $ git push origin master
 ```
 
 - Create a Pull Request and submit your assignment.
+
+<br>
 
 ## Deliverables
 
@@ -139,18 +147,18 @@ You already know how this goes, so let's start running some queries on our datab
 
 <br>
 
-2. Get **all the fields** of the library that was released earliest (first).
-3. Get **all the fields** of the library that was released most recently (last).
+2. Get **all the fields** of the library that was **released earliest** (first).
+3. Get **all the fields** of the library that was **released most recently** (last).
 4. All the libraries released **before 2015**.
 5. Get the `name` and the `release_date` of the libraries **without a licence**.
 6. Get the `name` and the `stars` from all **CSS Framework** libraries.
 7. Get the `name` of the libraries where the main technology is **Typescript**.
-8. Get the `name` and the `type` of all the libraries with more than 1000 contributors.
-9. Get the total number of `stars` of all the libraries.
-10. Get the average number of `contributors` for all the libraries.
-11. Update the `licence` field of the libriaries without a licence to store `'unknown'` instead of `NULL`.
-12. Update the `used_by` field of the libraries that don't have this information to store `'unknown'` instead of `NULL`.
-13. Update all the records to capitalize the string provided in the `main_technology` field.
+8. Get the `name` and the `type` of all the libraries with **more than 1000 contributors**.
+9. Get the **total** number of `stars` of **all the libraries**.
+10. Get the **average** number of `contributors` for **all the libraries**.
+11. Update the `licence` field of the **libriaries without a licence** to store `'unknown'` instead of `NULL`.
+12. Update the `used_by` field of the **libraries that don't have it specified** to store `'unknown'` instead of `NULL`.
+13. Update all the records to **capitalize the string** provided in the `main_technology` field.
 14. Delete all the records where `licence` is `'unknown'`.
 15. Delete all the records with **10000 or less** `stars`.
 16. Delete all the records with **less than 100** `releases`.
