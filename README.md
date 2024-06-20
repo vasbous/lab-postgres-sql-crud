@@ -106,7 +106,7 @@ If throughout the lab you delete or change something accidentally, you can alway
 
 You already know how this goes, so let's start running some queries on our database.
 
-1. Add the following technologies as new rows to the `jslibraries` table:
+1. Add the **solid** and **chartjs** libraries as new rows to the `jslibraries` table. Use the below data for the new rows:
 
 ```js
 [
