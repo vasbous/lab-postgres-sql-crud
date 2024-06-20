@@ -10,13 +10,6 @@ In this lab, you will practice SQL by working with a PostgreSQL database. You wi
 
 <br>
 
-## Deliverables
-
-Since we will be querying our database from `psql`, you will need to copy/paste the query you entered in `psql`.
-
-In the `queries.md` file, you will find the instructions about the query you need to perform in each iteration and a space to fill the answer.
-
-<br>
 
 ## Requirements
 
@@ -41,7 +34,10 @@ $ git push origin master
 
 ## Deliverables
 
-Since we will be querying our database from Mongo Compass, you will need to copy/paste the SQL query you used in the iteration to the `queries.md` file. You will find the instructions for each iteration in the `queries.md` file.
+Since we will be querying our database from `psql`, you will need to copy/paste the query you entered in `psql`.
+
+In the `queries.md` file, you will find the instructions about the query you need to perform in each iteration and a space to fill the answer.
+
 
 ### Example
 
