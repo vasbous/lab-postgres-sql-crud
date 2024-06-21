@@ -2,6 +2,24 @@
 
 # LAB | PostgreSQL CRUD
 
+<details>
+  <summary>
+   <h2>Learning Goals</h2>
+  </summary>
+
+This exercise allows you to practice and apply the concepts and techniques taught in class.
+
+Upon completion of this exercise, you will be able to:
+
+- Perform CRUD operations on a PostgreSQL database by using SQL statements
+- Use SQL logical operators to conditionally retrieve database records
+
+  <br>
+
+  <hr>
+
+</details>
+
 ## Introduction
 
 We just learned about databases and SQL. Now let's put that knowledge into practice!
