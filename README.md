@@ -92,27 +92,19 @@ CREATE TABLE jslibraries(
     release_date    DATE
 );
 
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('react','facebook','A declarative, efficient, and flexible JavaScript library for building user interfaces.',174000,'reactjs.org',138,'MIT License',7400000,1501,'javascript','SPA library','2014-08-23');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('vue','vuejs','A Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.',188000,'vuejs.org',252,'MIT License',NULL,399,'javascript','SPA library','2016-05-30');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('styled-components','styled-components','Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.',34600,'styled-components.com',195,'MIT License',731000,288,'typescript','CSS-in-JS Library','2016-06-18');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('ant-design','ant-design','VAn enterprise-class UI design language and React UI library.',34600,'ant.design',474,'MIT License',233000,1469,'typescript','Components Library','2012-12-16');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('chakra-ui','chakra-ui','⚡️ Simple, Modular & Accessible UI Components for your React Applications.',20300,'chakra-ui.com',2073,'MIT License',23100,429,'typescript','Components Library','2018-08-12');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('victory','FormidableLabs','A collection of composable React components for building interactive data visualizations.',9100,'http://formidable.com/open-source/victory/',214,NULL,9700,148,'javascript','Charts Library','2014-08-08');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('pug','pugjs','Pug – robust, elegant, feature rich template engine for Node.js.',20300,'pugjs.org',244,'MIT License',348000,253,'javascript','Template engine','2012-02-07');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('hbs','pillarjs','Express view engine wrapper for Handlebars.',1500,'pugjs.org',44,'MIT License',NULL,25,'javascript','Template engine','2013-08-25');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('bootstrap','twbs','The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.',153000,'getbootstrap.com',72,'MIT License',2700000,1240,'javascript','CSS Framework','2017-10-25');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('materialize','Dogfalo','Materialize, a CSS Framework based on Material Design.',36600,'materializecss.com',44,'MIT License',77200,261,'javascript','CSS Framework','2016-08-20');
-
-INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date) VALUES ('moment','moment','Parse, validate, manipulate, and display dates in javascript.',45900,'momentjs.com',84,NULL,2500000,590,'javascript','Date library','2012-10-08');
+INSERT INTO jslibraries(name,owner,description,stars,url,releases,licence,used_by,contributors,main_technology,type,release_date)
+VALUES
+  ('react','facebook','A declarative, efficient, and flexible JavaScript library for building user interfaces.',174000,'reactjs.org',138,'MIT License',7400000,1501,'javascript','SPA library','2014-08-23');
+  ('vue','vuejs','A Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.',188000,'vuejs.org',252,'MIT License',NULL,399,'javascript','SPA library','2016-05-30');
+  ('styled-components','styled-components','Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.',34600,'styled-components.com',195,'MIT License',731000,288,'typescript','CSS-in-JS Library','2016-06-18');
+  ('ant-design','ant-design','VAn enterprise-class UI design language and React UI library.',34600,'ant.design',474,'MIT License',233000,1469,'typescript','Components Library','2012-12-16');
+  ('chakra-ui','chakra-ui','⚡️ Simple, Modular & Accessible UI Components for your React Applications.',20300,'chakra-ui.com',2073,'MIT License',23100,429,'typescript','Components Library','2018-08-12');
+  ('victory','FormidableLabs','A collection of composable React components for building interactive data visualizations.',9100,'http://formidable.com/open-source/victory/',214,NULL,9700,148,'javascript','Charts Library','2014-08-08');
+  ('pug','pugjs','Pug – robust, elegant, feature rich template engine for Node.js.',20300,'pugjs.org',244,'MIT License',348000,253,'javascript','Template engine','2012-02-07');
+  ('hbs','pillarjs','Express view engine wrapper for Handlebars.',1500,'pugjs.org',44,'MIT License',NULL,25,'javascript','Template engine','2013-08-25');
+  ('bootstrap','twbs','The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.',153000,'getbootstrap.com',72,'MIT License',2700000,1240,'javascript','CSS Framework','2017-10-25');
+  ('materialize','Dogfalo','Materialize, a CSS Framework based on Material Design.',36600,'materializecss.com',44,'MIT License',77200,261,'javascript','CSS Framework','2016-08-20');
+  ('moment','moment','Parse, validate, manipulate, and display dates in javascript.',45900,'momentjs.com',84,NULL,2500000,590,'javascript','Date library','2012-10-08');
 
 ```
 
