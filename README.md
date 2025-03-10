@@ -164,7 +164,7 @@ You already know how this goes, so let's start running some queries on our datab
 9. Get the **total** number of `stars` of **all the libraries**. <br> <br>
 10. Get the **average** number of `contributors` for **all the libraries**. <br> <br>
 11. Update the `licence` field of the **libriaries without a licence** to store `'unknown'` instead of `NULL`. <br> <br>
-12. Update the `used_by` field of the **libraries that don't have it specified** to store `'unknown'` instead of `NULL`. <br> <br>
+12. Update the `used_by` field of the **libraries that don't have it specified** to store `0`( i.e., number zero), instead of `NULL`. <br> <br>
 13. Update all the records to **capitalize the string** provided in the `main_technology` field. <br> <br>
 14. Delete all the records where `licence` is `'unknown'`. <br> <br>
 15. Delete all the records with **10000 or less** `stars`. <br> <br>

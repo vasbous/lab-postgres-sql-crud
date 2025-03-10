@@ -70,7 +70,7 @@
 
 <br>
 
-**12. Update the `used_by` field of the libraries that don't have this information to store `'unknown'` instead of `NULL`.**
+**12. Update the `used_by` field of the libraries that don't have it specified to store `0` ( i.e., number zero), instead of `NULL`.**
 
 <!-- Your Query Goes Here -->
 
